@@ -24,3 +24,24 @@
     height: 100%;
     background-color: red;
 }
+
+/* Devices below 992px */
+
+@media screen and (max-width: 991px) {
+    .headerTitle {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    /* Hides title in navbar on large screens, and displays large title in header section */
+    .navTitle {
+        display: none;
+    }
+
+    .headerTitle {
+        display: block;
+    }
+}
