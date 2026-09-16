@@ -1,11 +1,26 @@
 /* CSS Variables */
 
 :root {
-
+    --primary-color: #FFFFCC;
 }
 
 /* General Styles */
 
+
+/* Navbar styles */
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
 .navLogo {
     max-height: 50px;
+}
+
+/* Test styles */
+
+.square {
+    width: 100%;
+    height: 100%;
+    background-color: red;
 }
