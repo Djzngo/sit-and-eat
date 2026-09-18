@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
     line-height: 1.5;
 }
 
-.btnMenu {
+.btnCustom {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -42,6 +42,10 @@ p {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--secondary-color);
+}
+
+main {
+    margin-bottom: 20px;
 }
 
 /* Navbar styles */
@@ -66,6 +70,12 @@ p {
 }
 
 .logo {
+    max-height: 200px;
+}
+
+/* Menu section */
+
+.imgOffer {
     max-height: 200px;
 }
 
