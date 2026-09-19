@@ -79,11 +79,15 @@ main {
     max-height: 200px;
 }
 
+#menu li {
+    font-size: 1.2rem;
+}
+
 /* Footer styles */
 
 #footer {
     background-color: var(--primary-color);
-    min-height: 100px;
+    min-height: 80px;
 }
 
 #footer a {
@@ -114,6 +118,10 @@ main {
     .headerTitle {
         display: none;
     }
+
+    .card {
+    margin-top: 20px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -126,5 +134,9 @@ main {
 
     .headerTitle {
         display: inline;
+    }
+
+    .card {
+        min-height: 477px;
     }
 }
