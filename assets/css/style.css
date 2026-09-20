@@ -48,6 +48,10 @@ main {
     margin-bottom: 20px;
 }
 
+.quicklink a {
+    min-width: 150px;
+}
+
 /* Navbar styles */
 
 .navbar {
@@ -123,6 +127,13 @@ main {
     .card {
     margin-top: 20px;
     }
+
+    /* Booking form */
+
+    form {
+        margin: 20px 20px;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
