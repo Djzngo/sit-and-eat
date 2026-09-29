@@ -52,6 +52,11 @@ main {
     min-width: 150px;
 }
 
+.location {
+    height: 50vh;
+    width: 50vh;
+}
+
 /* Navbar styles */
 
 .navbar {
@@ -111,10 +116,13 @@ main {
     margin-top: 25px;
 }
 
-/* Test styles */
+/* Small devices (mobile phones, 576px and below) */
 
-.fill {
-    background-color: red;
+@media screen and (max-width: 576px) {
+    .location {
+        height: 30vh;
+        width: 30vh;
+    }
 }
 
 /* Devices below 992px */
